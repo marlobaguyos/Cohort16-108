@@ -11,3 +11,8 @@
     color: #333;
     text-align: center;
 }
+
+.flexContainer{
+    display: flex;
+    justify-content: space-around;
+}

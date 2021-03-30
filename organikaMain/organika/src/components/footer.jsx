@@ -7,10 +7,12 @@ class Footer extends Component {
     render() { 
         return (
             <React.Fragment>
-                <div className="footer-cr">
-                    2021 All rights reserved.
+                <div className="flexContainer">
+                    <div className="footer-cr">
+                        2021 All rights reserved.
+                    </div>
+                    <label className="footer-name">Marlo Baguyos.</label>
                 </div>
-                <label className="footer-name">Marlo Baguyos.</label>
             </React.Fragment>
         );
     }
