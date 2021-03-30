@@ -1,5 +1,6 @@
 //imrc
 import React, { Component } from 'react';
+import '../css/footer.css';
 
 //cc
 class Footer extends Component {
