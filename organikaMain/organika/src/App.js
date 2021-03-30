@@ -1,13 +1,13 @@
 import './App.css';
 import NavBar from './components/navBar';
-import Footnote from './components/footnote';
+import Footer from './components/footer';
 
 function App() {
   return (
     <div className="App">
       <NavBar></NavBar>
       <h1>Hello World!!!</h1>
-      <Footnote></Footnote>
+      <Footer></Footer>
     </div>
   );
 }

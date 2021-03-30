@@ -1,14 +1,14 @@
+//imrc
 import React, { Component } from 'react';
 
-class Footnote extends Component {
-    state = {  }
+//cc
+class Footer extends Component {
     render() { 
         return (
             <div>
-                This is were footnotes goes
+                2021 All rights reserved. Marlo Baguyos.
             </div>
         );
     }
 }
- 
-export default Footnote;
+export default Footer;
