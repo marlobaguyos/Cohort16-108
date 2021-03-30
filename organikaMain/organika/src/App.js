@@ -3,6 +3,8 @@ import NavBar from './components/navBar';
 import Footer from './components/footer';
 import QuantityPicker from './components/quantityPicker';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'font-awesome/css/font-awesome.min.css';
 
 function App() {
   return (
