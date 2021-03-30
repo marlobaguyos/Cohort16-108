@@ -5,10 +5,11 @@ class NavBar extends Component {
     render() { 
         return (
             <div>
-                NavBar will be here!!
+                <div className="nav">
+                </div>
             </div>
         );
     }
 }
- 
+
 export default NavBar;
