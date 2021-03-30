@@ -5,7 +5,8 @@ class NavBar extends Component {
     render() { 
         return (
             <div>
-                <div className="nav">
+                <div>
+                    NavBar Here - Hello World!!
                 </div>
             </div>
         );
