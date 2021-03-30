@@ -5,9 +5,12 @@ import React, { Component } from 'react';
 class Footer extends Component {
     render() { 
         return (
-            <div>
-                2021 All rights reserved. Marlo Baguyos.
-            </div>
+            <React.Fragment>
+                <div className="footer-cr">
+                    2021 All rights reserved.
+                </div>
+                <label className="footer-name">Marlo Baguyos.</label>
+            </React.Fragment>
         );
     }
 }
