@@ -10,7 +10,9 @@ function App() {
   return (
     <div className="App">
       <NavBar></NavBar>
-      <h1>Hello World!!!</h1>
+
+      <h1 className="pogi">Hello World!!!</h1>
+
       <QuantityPicker></QuantityPicker>
       <Footer></Footer>
     </div>
