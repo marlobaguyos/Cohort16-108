@@ -28,7 +28,7 @@ class QuantityPicker extends Component {
         console.log("button clicked");
         // this.state.quantity = 999; <-- DO NOT modify state directly
         let current = this.state.quantity - 1; // read from the state 
-        if(current >= 1){
+        if(current > 0){
             this.setState({quantity:current});
         }
     }

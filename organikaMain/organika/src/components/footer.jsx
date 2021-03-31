@@ -14,18 +14,18 @@ class Footer extends Component {
                     <label className="footer-name">Marlo Baguyos.</label>
                 </div> */}
                 <div>
-                <nav class="navbar navbar-expand-lg navbar-light bg-light navbar navbar-dark bg-dark fixed-bottom">
-                <div class="container-fluid">
+                <nav className="navbar navbar-expand-lg navbar-light bg-light navbar navbar-dark bg-dark fixed-bottom">
+                <div className="container-fluid">
                     <div>
-                        <p class="navbar-brand">Lapu Lapu</p>
+                        <p className="navbar-brand">Lapu Lapu</p>
                     </div>
-                    <div class="collapse navbar-collapse" id="navbarText">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                            <p class="nav-link active" aria-current="page" href="#">2021 All rights reserved</p>
+                    <div className="collapse navbar-collapse" id="navbarText">
+                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li className="nav-item">
+                            <p className="nav-link active" aria-current="page" href="#">2021 All rights reserved</p>
                             </li>
-                            <li class="nav-item">
-                            <p class="nav-link active" aria-current="page" href="#">Marlo Baguyos</p>
+                            <li className="nav-item">
+                            <p className="nav-link active" aria-current="page" href="#">Marlo Baguyos</p>
                             </li>
                         </ul>
                     </div>
