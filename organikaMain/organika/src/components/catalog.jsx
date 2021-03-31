@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Product from "./product";
+import ProductService from "../services/ProductService";
 import "./css/catalog.css";
 
 class Catalog extends Component {
@@ -16,6 +17,13 @@ class Catalog extends Component {
         <Product></Product>
       </div>
     );
+  }
+
+  componentDidMount() {
+    console.log("Load data now");
+    //call the service, get the catalog and put the catalog in the state
+    let service = new ProductService();
+    var data = service.getProduct();
   }
 }
 
