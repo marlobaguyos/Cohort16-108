@@ -39,5 +39,7 @@
 
 .pogi {
   color:black;
-  margin: auto;
+  border: solid 1px blue;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
