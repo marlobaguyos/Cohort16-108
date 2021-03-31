@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './css/quantityPicker.css';
 
 class QuantityPicker extends Component {
     state = { 
@@ -7,10 +8,10 @@ class QuantityPicker extends Component {
     }
     render() { 
         return (
-            <div>
-                <button onClick={this.decreaseQuantity} className="btn btn-sm btn-primary">-</button>
-                <label>{this.state.quantity}</label>
-                <button onClick={this.increaseQuantity} className="btn btn-sm btn-primary">+</button>
+            <div className="container-button">
+                <button onClick={this.decreaseQuantity} className="btn btn-lg btn-dark minusbtn">-</button>
+                <label className="numLabel">{this.state.quantity}</label>
+                <button onClick={this.increaseQuantity} className="btn btn-lg btn-dark plusbtn">+</button>
             </div>
         );
     }
@@ -26,9 +27,10 @@ class QuantityPicker extends Component {
     decreaseQuantity = () => {
         console.log("button clicked");
         // this.state.quantity = 999; <-- DO NOT modify state directly
-        
         let current = this.state.quantity - 1; // read from the state 
-        this.setState({quantity:current});
+        if(current >= 1){
+            this.setState({quantity:current});
+        }
     }
 }
 
