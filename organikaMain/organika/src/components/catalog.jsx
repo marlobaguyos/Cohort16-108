@@ -4,11 +4,13 @@ import ProductService from "./services/productService.js";
 import "./css/catalog.css";
 
 class Catalog extends Component {
-  state = {};
+  state = {
+    catalog: []
+  };
   render() {
     return (
       <div className="catalog-page">
-        <h3>This is our amazing catalog</h3>
+        <h3>This is our amazing catalog {this.state.catalog.length} products</h3> 
         <Product></Product>
         <Product></Product>
         <Product></Product>
@@ -23,7 +25,9 @@ class Catalog extends Component {
     console.log("Load data now");
     //call the service, get the catalog and put the catalog in the state
     let service = new ProductService();
-    var data = service.getProduct();
+    var data = service.getProducts();
+
+    this.setState({catalog: data});
   }
 }
 
