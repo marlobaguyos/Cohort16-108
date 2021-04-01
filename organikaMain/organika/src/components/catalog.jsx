@@ -11,12 +11,8 @@ class Catalog extends Component {
     return (
       <div className="catalog-page">
         <h3>This is our amazing catalog {this.state.catalog.length} products</h3> 
-        <Product></Product>
-        <Product></Product>
-        <Product></Product>
-        <Product></Product>
-        <Product></Product>
-        <Product></Product>
+        
+        {this.state.catalog.map((p) => (<Product></Product>))}
       </div>
     );
   }
