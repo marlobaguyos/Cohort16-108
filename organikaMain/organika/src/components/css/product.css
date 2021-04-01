@@ -1,5 +1,5 @@
 .product{
-  border: 1px solid tomato;
+  border: .5rem solid rgb(32, 31, 31);
   display: inline-block;
   width: 250px;
   height: 350px;
